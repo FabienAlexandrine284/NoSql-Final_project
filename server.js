@@ -119,7 +119,7 @@ async function perform_match_query(res,req_query){
 	client.search({
 		index: 'ottawa',
 		type: 'ottawa_permits',
-		size: 200,
+		size: 20,
 		body: {
 			query: query
 		}
